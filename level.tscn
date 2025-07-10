@@ -24,7 +24,14 @@ environment = SubResource("Environment_oi3di")
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
 shadow_enabled = true
 
-[node name="PairOfMeshes" parent="." instance=ExtResource("1_u52ul")]
-
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="PairOfMeshes" parent="." instance=ExtResource("1_u52ul")]
+transform = Transform3D(0.965926, -0.258819, 0, 0.258819, 0.965926, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="PairOfMeshes2" parent="." instance=ExtResource("1_u52ul")]
+transform = Transform3D(-0.5, -0.866025, 0, 0.866025, -0.5, 0, 0, 0, 1, -2, 1, -1)
+
+[node name="PairOfMeshes3" parent="." instance=ExtResource("1_u52ul")]
+transform = Transform3D(0.838016, -0.194152, -0.509936, -0.42219, 0.361322, -0.831386, 0.345666, 0.912004, 0.220824, 0, 1, -3)
